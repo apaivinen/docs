@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "4699bf07bfee9085",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0aa3f7822bb43c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de64f208362b6240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "24163512838a98dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "8596e5738c49e071",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "860273673cd66b2b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a9ca35351f0628f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "11df1a750265dd6b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "548ab80808fa2dce",
+    "type": "split",
+    "children": [
+      {
+        "id": "b145c20657b68207",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "548a3e9edbbd3af2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2bc9a461ace45c58",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "61499c3aec6bf0f8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ed5ed40c067ecb3d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "de64f208362b6240",
+  "lastOpenFiles": [
+    "Logic App/Logic app authentications.md",
+    "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
+    "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
+    "Power Automate/2022-08-06 Basic Power automate multi-stage approval.md",
+    "Power Automate/2022-06-10 Power automate multi-stage approval with restart ability.md",
+    "TODO/Logic App, Application secret vanhentumisen valvonta.md",
+    "TODO/Häiriö- tai katkotiedote Sharepointiin Formsin avulla.md",
+    "TODO/Flow, get promoted state uutisista.md",
+    "TODO/Basic authentication.md",
+    "readme.md"
+  ]
+}
