@@ -5,7 +5,6 @@
 - Tarkista kaikki Graph API-oikeudet, että ovatko tarpeellisia.
 	- Esim. DeleteUser-flowissa on user.read.all ja user.readwrite.all. Riittäisikö user.readwrite.all ainoastaan.
 
-
 # Esivaatimukset
 - Azure Subscription
 - Resource Group
@@ -17,7 +16,6 @@
 - Managed Identity aktivoitu jokaiseen logic app
 - Graph api luvitukset tehty managed identityille
 - Extranet URL minne käyttäjä ohjataan kutsun jälkeen
-
 
 # Managed Identity Logic Appissa
 1. Go to your logic app
@@ -112,13 +110,9 @@ New-AzureAdServiceAppRoleAssignment -ObjectId $MSI.ObjectId -PrincipalId $MSI.Ob
 	- Graph permissions: `GroupMember.Read.All`
 6. Jos MemberOf-tiedoissa ei ole muutettua ryhmää niin lisätään käyttäjä kyseiseen ryhmään
 	
-
 ### Pohdintaa
 Voiko käyttäjä kuulua useampaan kuin yhteen ryhmään?
 Mitä tapahtuu jos käyttäjälle tulee ryhmämuutos?
-
-
-
 
 # UserSync-DeleteUser
 Managed identity object id: ``
@@ -129,7 +123,6 @@ Graph permissions:
 ### Powershellillä oikeudet
 
 ## Logiikka
-
 
 1. Trigger kun käyttäjä poistetaan CRM
 2. Otetaan käyttäjän sähköposti/UPN
@@ -144,10 +137,8 @@ Graph permissions:
 ## Create invitation
 Ei ole syitä miksi pitäisi käyttää Graph api. Tässä t oimii Managed Identity mille voidaan asettaa oikeudet powershell-kautta. Vaadittava oikeus on `User.Invite.All`
 
-
 Jos halutaan kaivaa syitä et miksi create invitationia ei käytetä johtuu ihan siitä, että se on random kaverin tekemä connector jossa on selviä virheitä.
 Esimerkiksi Name-parametri on oikeesti CC-sähköpostiosoite.
-
 
 ## Add user to group
 Azure AD Connector vaatii käyttäjätunnuksen ja salasanan connectorin tunnistautumiseksi.
@@ -158,7 +149,6 @@ Tulisi käyttää Graph API ja Managed Identityä. Vaihtoehtoisesti tulisi käyt
 Vaadittava Graph oikeus: `GroupMember.ReadWrite.All`
 Docs: https://learn.microsoft.com/en-us/graph/api/group-post-members?view=graph-rest-1.0&tabs=http
 
-
 ## Delete User
 Ei ole kyseistä connectoria saatavilla. Pakko tehdä Graph API
 
@@ -166,9 +156,7 @@ Ei ole kyseistä connectoria saatavilla. Pakko tehdä Graph API
 
 UserSync-DEMO group object ID: 35a1841d-0c59-4605-a2f6-53cdcd67faee
 
-
-
-UserSync-UpdateUser object id: f5138907-a7d0-4cf4-965b-19ca3ba7c59e
+UserSync-UpdateUser object ID: f5138907-a7d0-4cf4-965b-19ca3ba7c59e
 
 # Katso myöhemmin
 

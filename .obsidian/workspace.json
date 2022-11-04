@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b183eb42fc9264f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "548ab80808fa2dce",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
+                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
+                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md"
+                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md"
               }
             }
           }
@@ -137,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "de64f208362b6240",
+  "active": "3b183eb42fc9264f",
   "lastOpenFiles": [
-    "Logic App/Logic app authentications.md",
     "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
+    "Forms/Kuinka löydetään formin omistaja.md",
+    "Logic App/Logic app authentications.md",
     "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
     "Power Automate/2022-08-06 Basic Power automate multi-stage approval.md",
     "Power Automate/2022-06-10 Power automate multi-stage approval with restart ability.md",
     "TODO/Logic App, Application secret vanhentumisen valvonta.md",
     "TODO/Häiriö- tai katkotiedote Sharepointiin Formsin avulla.md",
     "TODO/Flow, get promoted state uutisista.md",
-    "TODO/Basic authentication.md",
-    "readme.md"
+    "TODO/Basic authentication.md"
   ]
 }

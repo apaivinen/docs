@@ -24,3 +24,14 @@ user.memberof -any (group.objectId -in ['Ryhmän1-ObjectID-Tähän','Ryhmän2-Ob
 - Ryhmä jossa dynaaminen kysely aktivoidaan tyhjentää alkuperäiset jäsenet ja hakee uudet jäsenet kyselyn mukaisesti
 - Vaatii Yammer Native Moden [Overview of Native Mode for Microsoft 365 - Yammer | Microsoft Learn](https://learn.microsoft.com/en-us/yammer/configure-your-yammer-network/overview-native-mode)
 	- Kaikki tammikuu 2020 jälkeen luodut yammer-verkostot ovat oletuksena native moodissa
+
+## Preview limitations
+
+-   Each Azure AD tenant is limited to 500 dynamic groups using the memberOf attribute. memberOf groups do count towards the total dynamic group member quota of 5,000.
+-   Each dynamic group can have up to 50 member groups.
+-   When adding members of security groups to memberOf dynamic groups, only direct members of the security group become members of the dynamic group.
+-   You can't use one memberOf dynamic group to define the membership of another memberOf dynamic groups. For example, Dynamic Group A, with members of group B and C in it, can't be a member of Dynamic Group D).
+-   MemberOf can't be used with other rules. For example, a rule that states dynamic group A should contain members of group B and also should contain only users located in Redmond will fail.
+-   Dynamic group rule builder and validate feature can't be used for memberOf at this time.
+-   MemberOf can't be used with other operators. For example, you can't create a rule that states “Members Of group A can't be in Dynamic group B.”
+-   The objects specified in the rule can't be administrative units.
