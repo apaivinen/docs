@@ -23,11 +23,9 @@
             "id": "3b183eb42fc9264f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20221104125821.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
+                "file": "Pasted image 20221104125821.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
+                "file": "Pasted image 20221104125821.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md"
+                "file": "Pasted image 20221104125821.png"
               }
             }
           }
@@ -151,15 +149,15 @@
   },
   "active": "3b183eb42fc9264f",
   "lastOpenFiles": [
+    "Pasted image 20221104125546.png",
+    "Pasted image 20221104125821.png",
+    "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
     "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
     "Forms/Kuinka löydetään formin omistaja.md",
     "Logic App/Logic app authentications.md",
-    "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
     "Power Automate/2022-08-06 Basic Power automate multi-stage approval.md",
     "Power Automate/2022-06-10 Power automate multi-stage approval with restart ability.md",
     "TODO/Logic App, Application secret vanhentumisen valvonta.md",
-    "TODO/Häiriö- tai katkotiedote Sharepointiin Formsin avulla.md",
-    "TODO/Flow, get promoted state uutisista.md",
-    "TODO/Basic authentication.md"
+    "TODO/Häiriö- tai katkotiedote Sharepointiin Formsin avulla.md"
   ]
 }
