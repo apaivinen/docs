@@ -23,9 +23,11 @@
             "id": "3b183eb42fc9264f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20221104125821.png"
+                "file": "Forms/Kuinka löydetään formin omistaja.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20221104125821.png",
+                "file": "Forms/Kuinka löydetään formin omistaja.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20221104125821.png",
+                "file": "Forms/Kuinka löydetään formin omistaja.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20221104125821.png"
+                "file": "Forms/Kuinka löydetään formin omistaja.md"
               }
             }
           }
@@ -149,8 +151,8 @@
   },
   "active": "3b183eb42fc9264f",
   "lastOpenFiles": [
-    "Pasted image 20221104125546.png",
     "Pasted image 20221104125821.png",
+    "Pasted image 20221104125546.png",
     "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
     "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
     "Forms/Kuinka löydetään formin omistaja.md",
