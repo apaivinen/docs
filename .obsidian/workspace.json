@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc7ed2156024849d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure AD/Dynaamiset ryhmät.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,7 +161,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3b183eb42fc9264f",
+  "active": "bc7ed2156024849d",
   "lastOpenFiles": [
     "Pasted image 20221104125821.png",
     "Pasted image 20221104125546.png",
