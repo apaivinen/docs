@@ -28,9 +28,21 @@
                 "file": "Pasted image 20221104125821.png"
               }
             }
+          },
+          {
+            "id": "bc7ed2156024849d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Azure AD/Dynaamiset ryhmät.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20221104125821.png",
+                "file": "Azure AD/Dynaamiset ryhmät.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20221104125821.png",
+                "file": "Azure AD/Dynaamiset ryhmät.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20221104125821.png"
+                "file": "Azure AD/Dynaamiset ryhmät.md"
               }
             }
           }
@@ -147,10 +159,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3b183eb42fc9264f",
+  "active": "bc7ed2156024849d",
   "lastOpenFiles": [
-    "Pasted image 20221104125546.png",
     "Pasted image 20221104125821.png",
+    "Pasted image 20221104125546.png",
     "Azure AD/Guest käyttäjän kutsuminen, päivittäminen ja poistaminen.md",
     "Azure AD/Dynaamiset ryhmät Yammerin kanssa.md",
     "Forms/Kuinka löydetään formin omistaja.md",
